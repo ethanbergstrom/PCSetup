@@ -30,12 +30,15 @@ $data = @{
 			Packages = @(
 				'7zip.7zip',
 				'Balena.Etcher',
+				'CPUID.HWMonitor',
 				'dbeaver.dbeaver',
+				'Docker.DockerDesktop',
 				'Git.Git',
 				'Hashicorp.Vagrant',
 				'Microsoft.PowerShell',
+				'Microsoft.WindowsTerminal',
 				'Notepad++.Notepad++',
-				'Telerik.Fiddler',
+				'Telerik.Fiddler.Classic',
 				'WinSCP.WinSCP'
 			)
 			# This is not secure! Encrypt DSC MOFs with certificates for secure usage.
