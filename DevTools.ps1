@@ -29,14 +29,17 @@ $data = @{
 			NodeName = 'localhost'
 			Packages = @(
 				'7zip.7zip',
+				'Adobe.Acrobat.Reader.32-bit',
 				'Balena.Etcher',
 				'CPUID.HWMonitor',
 				'dbeaver.dbeaver',
 				'Docker.DockerDesktop',
 				'Git.Git',
 				'Hashicorp.Vagrant',
+				'Inkscape.Inkscape',
 				'Microsoft.PowerShell',
 				'Microsoft.WindowsTerminal',
+				'Mozilla.Firefox',
 				'Notepad++.Notepad++',
 				'Telerik.Fiddler.Classic',
 				'WinSCP.WinSCP'
