@@ -9,6 +9,7 @@ configuration LCMConfig
 			ConfigurationMode = 'ApplyAndAutoCorrect'
 			# Check for updates once a day
 			ConfigurationModeFrequencyMins = 1440
+			RefreshFrequencyMins = 1440
 		}
 	}
 }
@@ -28,8 +29,6 @@ $data = @{
 		@{
 			NodeName = 'localhost'
 			Packages = @(
-				'7zip.7zip',
-				'Adobe.Acrobat.Reader.32-bit',
 				'Balena.Etcher',
 				'CPUID.HWMonitor',
 				'dbeaver.dbeaver',
